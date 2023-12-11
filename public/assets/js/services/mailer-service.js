@@ -11,16 +11,16 @@ function sendMail(infoContact) {
 	// avec les informations soumises du formulaire
 	// en paramètre
 
-	// Créer un compte sur https://www.emailjs.com/
+	// Créer un compte sur
 	// Créer des identifiants pour le service EmailJS SMTP
 	// Reporter les identifiants dans le code ci-dessous
 	// L'envoie d'email peut se vérifier dans l'interface d'EmailJS
 	return Email.send({
 		Host: "smtp.elasticemail.com",
-		Username: "TODO: à compléter",
-		Password: "TODO: à compléter",
+		Username: "scellier.yoann@gmail.com",
+		Password: "619358D004A0161831A8F1091C424A04A428",
 		To: 'contact@gmail.com',
-		From: "les-gardiens-dela-galaxie@gmail.com",
+		From: "scellier.yoann@gmail.com",
 		Subject: "Une demande de contact depuis le site Space Tour",
 		Body: "Une demande de contact a été envoyée depuis le site Space Tour. TODO: Envoyer les informations soumises du formulaire."
 	}).then(
